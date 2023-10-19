@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+body{
+    background-image: url(immagini3/background.jpg); 
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}  
+.background{
+    height: 80vh;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.416);
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.logo{
+    width: 230px;
+    height: 110px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.introtesto{
+    color: rgb(45, 240, 45);
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav{
+    width: 870px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: chartreuse;   
+}
+.conteiner-nav{
+    text-align: center;
+}
+button, .button-main{
+    margin-top: 11px;
+    cursor: pointer;
+}
+.button-main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.conteiner-gino{
+    width: 870px;
+    height: 40px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.testo-monopattini{
+    font-size: 25px;
+    font-weight: bold;
+}
+input{
+    cursor: pointer;
+}
+.batteria-gino{
+    width: 300px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.conteiner-mike{
+    width: 870px;
+    height: 40px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.batteria-mike{
+    width: 400px;
+    height: 30px;
+    background-color: rgb(5, 152, 29);
+    border-radius: 10px;
+}
+.conteiner-fede{
+    width: 870px;
+    height: 40px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.batteria-fede{
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.footer{
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 3, 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
